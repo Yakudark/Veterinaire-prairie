@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a class="header-logo" href="index.html"><img src="./assets/Logo_veto.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="">Vétérinaire</a></li>
+                    <li><a href="">Propriétaire d'animaux</a></li>
+                    <li><a href="">Urgences</a></li>
+                    <li><a href="contact.html">Nous contacter</a></li>
+                    <li><a href="espace-veterinaire.html">Mon espace vétérinaire</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Nous contacter</h1>
+
+        <!-----------contact-->
+        <div class="contact-container">
+            <div class="location">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2813.3509627880767!2d5.730048815766182!3d45.159742461727625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478af5217cc07103%3A0x91b3b3f2fa58b3b4!2sSimplon%20Grenoble!5e0!3m2!1sfr!2sfr!4v1670504744671!5m2!1sfr!2sfr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+            <div class="nous-contacter">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>34 avenue de l'Europe bâtiment D</h5>
+                        <p>38100 Grenoble, France</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>0438241216</h5>
+                        <p>Du lundi au Vendredi, 9h - 17h</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-open"></i>
+                    <span>
+                        <h5>vétérinaire@gmail.com</h5>
+                        <p>Envoyez-nous votre question</p>
+                    </span>
+                </div>
+
+            </div>
+
+            <div class="contact-submit">
+                <form>
+                    <input type="text" name="name" placeholder="Entrez votre nom" required>
+                    <input type="email" name="email" placeholder="Entrez votre e-mail" required>
+                    <input type="text" name="subject" placeholder="Sujet" required>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="team-btn">Envoyer le message</button>
+                </form>
+            </div>
+
+        </div>
+
+    </section>
+
+    <div class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br> Iusto enim unde similique ipsum ducimus.
+            Alias
+            quis
+            pariatur mollitia? Odio, cum.</p>
+        <div class="icons">
+            <a href="https://fr-fr.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
